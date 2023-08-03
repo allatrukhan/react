@@ -1,0 +1,36 @@
+.main-menu{
+    position: fixed;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    outline: 3px solid black ;
+}
+
+.main-menu li {
+    float: left;
+}
+
+.main-menu li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 25px ;
+    text-decoration: none;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.main-menu li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: yellowgreen;
+}

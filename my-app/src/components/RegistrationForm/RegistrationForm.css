@@ -1,0 +1,88 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(92, 92, 91, 0.5);
+}
+
+.backdrop.is-hidden {
+    opacity: 1;
+    pointer-events: none;
+}
+.modal-registration{
+    min-height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black; 
+
+    pointer-events: auto;
+}
+.form {
+    min-height: 400px;
+    padding: 20px;
+    background-color: azure;
+  z-index: 1010;
+}
+.modal-registration .form-label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 16px;
+}
+
+.modal-registration .form-input[type="text"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 16px;
+}
+
+.modal-registration input[type="submit"]{
+    background-color: yellowgreen; 
+    border: 3px solid black;
+    color: black;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 40px;
+   
+}
+.close{
+    width: 35%;
+    height: 40px;
+    border: 3px solid black;
+    background-color: yellowgreen; 
+    text-align: center;
+    font: italic small-caps bold 16px/2 cursive;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    height: 40px;
+}
+
+.btn-sub-close{
+    display: flex;
+}
+
+.form p{
+    color: red;
+    font-weight: bold;
+}

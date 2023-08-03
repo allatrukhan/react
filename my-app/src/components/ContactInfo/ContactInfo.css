@@ -1,0 +1,10 @@
+.contact-info{
+padding-top: 120px;
+pointer-events: none;
+}
+
+.contact-info h3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

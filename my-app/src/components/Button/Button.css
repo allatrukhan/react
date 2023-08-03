@@ -1,0 +1,20 @@
+.btn-search-group button{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: auto;
+    background-color: #b8f330; 
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    font: italic small-caps bold 16px/2 cursive;
+    font-size: 16px;
+   
+  }
+
+  .btn-search-group{
+    width: 100%;
+    display: block;
+    
+  }
