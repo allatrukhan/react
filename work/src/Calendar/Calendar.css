@@ -1,0 +1,28 @@
+.left-side-calendar{
+    width: 228px;
+    height: 412px;
+    margin-top: 80px;
+}
+
+.calendar-title{
+    /* width: 228px;
+    height: 78px; */
+}
+
+.calendar-title p{
+    /* width: 200px;
+    height: 48px; */
+    padding-left: 14px;
+ }
+
+LocalizationProvider{
+    /* width: 228px;
+    height: 286px; */
+
+}
+
+.date{
+    width: 228px;
+    height: 48px;
+    text-align: center;
+}

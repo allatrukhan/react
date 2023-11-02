@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  position: absolute;
+  max-width: 1440px;
+  height: 1687;
+  margin-left: auto;
+  margin-right: auto;
+}
+

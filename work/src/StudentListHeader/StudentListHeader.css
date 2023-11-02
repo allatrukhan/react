@@ -1,0 +1,79 @@
+.student-list-header{
+    width: 1152;
+    height: 123.5;
+    margin-top: 80px;
+}
+
+.student-navigation-frame{
+    width: 1120;
+    height: 24;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.schedule-frame{
+    width: 1120;
+    height: 47.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.schedule-day{
+    display: flex;
+    gap: 30px;
+    width: 574.4;
+    height: 47.5;
+}
+
+.day-btn{
+    width: 68;
+    height: 40;
+    text-align: center;
+}
+
+.day-frame{
+    display: flex;
+    gap: 3.4 px;
+    align-items: center;
+}
+
+.schedule-btn-group{
+    display: flex;
+    width: 360;
+    height: 42;
+}
+
+.search-schedule-btns{
+    display: flex;
+}
+
+.search-btn{
+    width: 40;
+    height: 30;
+}
+
+.time-btn{
+    width: 40;
+    height: 30;
+}
+
+.additional-info-btn{
+    width: 40;
+    height: 30;
+}
+
+.select-resources{
+    width: 192;
+    height: 42;
+    background-color: #77BB00;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.second-btn{
+    width: 48;
+    height: 42;
+    background-color: #77BB00;
+    border: none;
+}
