@@ -1,40 +1,48 @@
 .student-list-header{
-    width: 1152;
-    height: 123.5;
+    width: 1152px;
+    height: 123.5px;
     margin-top: 80px;
 }
 
 .student-navigation-frame{
-    width: 1120;
-    height: 24;
+    width: 1120px;
+    height: 24px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .schedule-frame{
-    width: 1120;
-    height: 47.5;
+    display: flex;
+    width: 1120px;
+    height: 47.5px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.empty-container{
+    width: 150px;
+}
 .schedule-day{
     display: flex;
     gap: 30px;
-    width: 574.4;
-    height: 47.5;
+    width: 574.4px;
+    height: 47.5px;
 }
 
 .day-btn{
-    width: 68;
-    height: 40;
+    width: 68px;
+    height: 40px;
     text-align: center;
 }
 
 .day-frame{
     display: flex;
+    gap: 10px;
+    width: 226.4px;
+    height: 32px;
     gap: 3.4 px;
     align-items: center;
+    justify-content: center;
 }
 
 .schedule-btn-group{
@@ -45,35 +53,17 @@
 
 .search-schedule-btns{
     display: flex;
+        width: 40px;
+        height: 40px;
+        border: none;
 }
 
-.search-btn{
-    width: 40;
-    height: 30;
+.today-date{
+    width: 156px;
+    height: 32px;
 }
 
-.time-btn{
-    width: 40;
-    height: 30;
-}
-
-.additional-info-btn{
-    width: 40;
-    height: 30;
-}
-
-.select-resources{
-    width: 192;
-    height: 42;
-    background-color: #77BB00;
-    color: white;
-    border: none;
-    text-align: center;
-}
-
-.second-btn{
-    width: 48;
-    height: 42;
-    background-color: #77BB00;
-    border: none;
+.path{
+    width: 25.2px;
+    height: 25.2px;
 }

@@ -18,13 +18,17 @@ function Calendar() {
         <div class="calendar-title">
             <p className="title">Calendar</p>
         </div>
-    <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <DemoContainer components={['DateCalendar', 'DateCalendar']}>
-          <DateCalendar value={value} onChange={(newValue) => setValue(newValue)} />
-      </DemoContainer>
-    </LocalizationProvider>
-    <div class="date">
-    <p className="day"><span>{moment().format('LL')}</span></p>
+        
+        <div class="calendar">
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <DemoContainer components={['DateCalendar', 'DateCalendar']}>
+              <DateCalendar value={value} onChange={(newValue) => setValue(newValue)} />
+            </DemoContainer>
+          </LocalizationProvider>
+        </div>
+
+        <div class="date">
+          <p className="day"><span>{moment().format('LL')}</span></p>
         </div>
     </div>
   );

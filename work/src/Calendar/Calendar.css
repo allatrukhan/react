@@ -5,20 +5,19 @@
 }
 
 .calendar-title{
-    /* width: 228px;
-    height: 78px; */
+    width: 228px;
+    height: 78px;
 }
 
 .calendar-title p{
-    /* width: 200px;
-    height: 48px; */
+    width: 200px;
+    height: 48px;
     padding-left: 14px;
  }
 
-LocalizationProvider{
-    /* width: 228px;
-    height: 286px; */
-
+.calendar{
+    width: 228px;
+    height: 286px;
 }
 
 .date{

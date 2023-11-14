@@ -1,0 +1,26 @@
+.select-resources{
+    width: 240px;
+    height: 42px;
+}
+
+.title-resouces{
+    width: 192px;
+    height: 42px;
+    background-color: #77BB00;
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.options-btn{
+    width: 48px;
+    height: 42px;
+    background-color: #77BB00;
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+  
+}

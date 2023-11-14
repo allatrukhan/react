@@ -1,0 +1,28 @@
+.header-btns{
+    display: flex;
+    width: 321px;
+    height: 48px;
+    gap: 50px;
+}
+
+.new-notification-btn{
+  
+    width: 48px;
+    height: 48px;
+    border: none;
+}
+
+/* .new-notification-btn svg {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    pointer-events: none;
+  }     */
+
+  .user-login{
+    display: flex;
+    gap: 10px;
+    width: 223px;
+    height: 42px;
+  }

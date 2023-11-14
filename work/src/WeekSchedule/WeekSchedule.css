@@ -1,5 +1,64 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(92, 92, 91, 0.5);
+}
+
+.backdrop.is-hidden {
+    opacity: 1;
+    pointer-events: none;
+}
+
 .main-week-schedule{
-    display: flex;
     width: 500;
-    height: 701;
+    min-height: 701;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+    border: none;
+    background-color: white;
+  
+}
+.week-schedule{
+    display: flex;
+    gap: 20px;
+}
+.swich{
+    padding-bottom: 30px;
+}
+
+.save{
+
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 334px;
+    height: 94px;
+   
+}
+
+.save-btn{
+
+    width: 82px;
+    height: 42px;
+    background-color: #77BB00;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.settings-block{
+    padding-top: 20px;
 }

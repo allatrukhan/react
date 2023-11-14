@@ -8,8 +8,11 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
+// import Divider from '@mui/material/Divider';
+import './SelectResources.css';
 
-const options = ['Create a merge commit', 'Squash and merge', 'Rebase and merge'];
+
+const options = ['Option 1', 'Option 2', 'Option 3'];
 
 export default function SplitButton() {
   const [open, setOpen] = React.useState(false);
@@ -40,8 +43,10 @@ export default function SplitButton() {
   return (
     <React.Fragment>
       <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
-        <Button onClick={handleClick}>{options[selectedIndex]}</Button>
-        <Button
+        <div class="select-resources">
+           <Button class="title-resouces" onClick={handleClick}>SELECT RESOURCES</Button>
+           {/* <Divider orientation="vertical" flexItem/> */}
+           <Button class="options-btn"
           size="small"
           aria-controls={open ? 'split-button-menu' : undefined}
           aria-expanded={open ? 'true' : undefined}
@@ -51,6 +56,8 @@ export default function SplitButton() {
         >
           <ArrowDropDownIcon />
         </Button>
+        </div>
+       
       </ButtonGroup>
       <Popper
         sx={{
