@@ -1,8 +1,15 @@
 .App {
-  display: flex;
-  position: absolute;
+  /* display: flex;
+  position: absolute; */
   width: 1440px;
-  height: 1687;
-
+  height: 1687px;
+background-color: #F5F5F5;
+align-items: center;
+justify-content: center;
 }
 
+.main-content{
+  display: flex;
+  gap: 10px;
+
+}

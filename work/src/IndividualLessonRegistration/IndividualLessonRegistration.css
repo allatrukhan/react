@@ -1,20 +1,25 @@
 .individual-lesson-registration{
+    width: 1152px;
+    height: 1146px;
+    background-image: url("../Background.png");
+    position: relative;
+}
+
+/* .background-img{
 
     width: 1152px;
     height: 1146px;
-}
-
-.background-img{
-    /* position: relative; */
-    width: 1152px;
-    height: 1146px;
-}
+} */
 
 .reg-cards-block{
     display: flex;
     flex-flow: row wrap;
     flex: 1;
     gap: 10px;
+
     width: 255px;
     height: 805px;
+padding-top: 40px;
+padding-left: 40%;
+
 }

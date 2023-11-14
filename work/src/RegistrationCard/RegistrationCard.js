@@ -29,6 +29,7 @@ function RegistrationCard(){
                     <FormControl fullWidth>
                         <InputLabel id="demo-simple-select-label">Lesson</InputLabel>
                             <Select
+                                size='small'
                                 labelId="demo-simple-select-label"
                                 id="demo-simple-select"
                                 onChange={handleChange}
