@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 
 import './WeekSchedule.css';
+import WorkingTime from '../WorkingTime/WorkingTime';
 
     function WeekSchedule({closeModal}){
 
@@ -21,8 +22,11 @@ import './WeekSchedule.css';
     return(
         <div>
         <div class="backdrop is-hidden">
-        <div class="main-week-schedule"> 
-         <Typography variant="h4" gutterBottom>WORK SCHEDULE</Typography>
+        <div class="main-week-schedule">
+            <div class="title">
+                <Typography variant="h4" gutterBottom>WORK SCHEDULE</Typography>
+            </div> 
+         
         <div class="week-schedule">
             <div class="days-of-the-week">
                 <Typography variant="h6" gutterBottom>Sunday</Typography>
@@ -34,14 +38,15 @@ import './WeekSchedule.css';
                 <Typography variant="h6" gutterBottom>Saturday</Typography>
             </div>
             <div class="swich">
-                <FormControlLabel control={<Switch />} label="Non-workday"/><br/>
-                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> <br/>
-                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> <br/>
-                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> <br/>
-                <FormControlLabel control={<Switch defaultChecked />} label="Workday"/> <br/>
-                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> <br/>
+                <FormControlLabel control={<Switch />} label="Non-workday"/>
+                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> 
+                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> 
+                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> 
+                <FormControlLabel control={<Switch defaultChecked />} label="Workday"/> 
+                <FormControlLabel control={<Switch defaultChecked />} label="Workday" /> 
                 <FormControlLabel control={<Switch defaultChecked />} label="Workday" />
             </div>
+                <WorkingTime/>
             </div>
                 <Divider orientation="horizontal"/>
             <div class="settings-block">

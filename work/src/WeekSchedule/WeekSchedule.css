@@ -4,17 +4,18 @@
     left: 0;
     width: 100%;
     height: 100%;   
-    background-color: rgba(92, 92, 91, 0.5);
+    background-color: rgba(92, 92, 92, 0.5);
+    z-index: 9999;
 }
 
 .backdrop.is-hidden {
     opacity: 1;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .main-week-schedule{
-    width: 500;
-    min-height: 701;
+    width: 500px;
+    min-height: 701px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -26,18 +27,34 @@
     pointer-events: auto;
     border: none;
     background-color: white;
-  
+}
+
+.title{
+    /* align-items: center;
+    justify-content: center; */
+    padding-left: 100px;
 }
 .week-schedule{
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 .swich{
+    width: 136px;
+    height: 315px;
     padding-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
 }
 
+.days-of-the-week{
+    width: 105px;
+    height: 315px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
 .save{
-
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -57,6 +74,7 @@
     border: none;
     color: white;
     margin-bottom: 20px;
+    margin-left: 40%;
 }
 
 .settings-block{

@@ -16,7 +16,7 @@ function Calendar() {
   return (
     <div class="left-side-calendar">
         <div class="calendar-title">
-            <p className="title">Calendar</p>
+            <p >Calendar</p>
         </div>
         
         <div class="calendar">

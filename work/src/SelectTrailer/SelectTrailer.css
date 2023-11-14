@@ -1,0 +1,48 @@
+.select-trailer-2{
+    width: 276px;
+    height: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+
+}
+
+.select-trailer-main{
+    width: 270px;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.total-seats{
+    width: 276px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 50px;
+}
+
+.slots{
+    width: 276px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 90px;
+}
+
+.instructors{
+    width: 276px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.save-trailer-info{
+    width: 220px;
+    height: 30px;
+}
+

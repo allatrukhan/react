@@ -1,0 +1,13 @@
+.select-truck{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.select-track-header{
+    width: 1102px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}

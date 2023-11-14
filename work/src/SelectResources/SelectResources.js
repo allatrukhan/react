@@ -38,10 +38,10 @@ export default function SplitButton() {
   };
 
   return (
-    <React.Fragment>
+    <React.Fragment >
        <div class="select-resources">
-      <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
-        <Button fullWidth onClick={handleClick}>{options[selectedIndex]}</Button>
+      <ButtonGroup variant="contained"ref={anchorRef} aria-label="split button">
+        <Button  onClick={handleClick}>{options[selectedIndex]}</Button>
         <Button
           size="medium"
           aria-controls={open ? 'split-button-menu' : undefined}

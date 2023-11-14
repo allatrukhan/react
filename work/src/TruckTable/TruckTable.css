@@ -2,5 +2,29 @@
     width: 1102px;
     height: 249px;
     background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 20px;
+}
+/* .select-trailer{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 5px; */
+/* } */
+.header-truck{
+    width: 1102px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap; 
+    flex: 1;
+}
 
+.select-trailer{
+    width: 1102px;
+    height: 210px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
 }

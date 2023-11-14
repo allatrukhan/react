@@ -1,0 +1,28 @@
+.working-time-container{
+    width: 179px;
+    height: 315px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.empty-row{
+    width: 179px;
+    height: 32px;
+}
+
+.start-finish{
+    width: 170px;
+    height: 32px;
+    display: flex;
+
+}
+
+.working-hours{
+    width: 170px;
+    height: 32px;
+    display: flex;
+
+}

@@ -16,19 +16,20 @@ function ButtonGroup(){
         <div class="button-group"> 
         
             <Stack direction="column" spacing={1}>
-      <IconButton aria-label="delete">
+            
+      <IconButton aria-label="icon1">
         < BtnSvg1 width={24} height={24}/>
       </IconButton>
-      <IconButton aria-label="delete" >
+      <IconButton aria-label="icon2" >
         <BtnSvg2 width={24} height={24}/>
       </IconButton>
-      <IconButton  aria-label="add an alarm">
+      <IconButton  aria-label="icon3">
         < BtnSvg3 width={24} height={24}/>
       </IconButton>
-      <IconButton  aria-label="add to shopping cart">
+      <IconButton  aria-label="icon4">
         < BtnSvg4 width={24} height={24}/>
       </IconButton>
-      <IconButton  aria-label="add to shopping cart">
+      <IconButton  aria-label="icon5">
         < BtnSvg5 width={24} height={24}/>
       </IconButton>
     </Stack>

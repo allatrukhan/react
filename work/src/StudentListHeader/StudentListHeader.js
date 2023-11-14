@@ -1,7 +1,6 @@
 import moment from 'moment';
 import { Typography } from '@mui/material';
 // import { Link } from 'react-router-dom';
-// import Divider from '@mui/material/Divider';
 import {useState} from 'react';
 import IconButton from '@mui/material/IconButton';
 import {ReactComponent as PathLeft} from '../Path_left.svg';
@@ -13,6 +12,9 @@ import {ReactComponent as AdditionalSvg } from '../Additional.svg';
 import WeekSchedule from '../WeekSchedule/WeekSchedule';
 import SelectResources from '../SelectResources/SelectResources';
 import './StudentListHeader.css';
+import FieldText from '../FieldText/FieldText';
+// import Dashboard from '../Dashboard/Dashboard';
+// import Main from '../Main/Main';
 
 function StudentListHeader(){
 
@@ -28,15 +30,14 @@ function StudentListHeader(){
 
     return(
         <div class="student-list-header"> 
-            {/* <div class="student-navigation-frame">
-                <Link to="/#" className="">Dashboard</Link>  
+            <div class="student-navigation-frame">
+                {/* <Link to="" >Dashboard</Link>  
                 <Vector width={20} height={20}/>
-                <Link to="/#" className="">Students List</Link>
-            </div> */}
+                <Link to="" >Students List</Link> */}
+            </div>
             <div class="schedule-frame">
                 <div class="schedule-day">
-                    <label>Schedule</label>
-                    {/* <Divider orientation="horizontal"/> */}
+                    <FieldText/>
                     <button type="button" class="day-btn">Today</button>
                     <div class="day-frame">
                         <div class="path">

@@ -9,17 +9,12 @@
     display: flex;
     flex-flow: row wrap;
     flex: 1;
-    /* gap: 5px; */
     width: 244px;
     height: 132px;
     padding-left: 12px;
     padding-top: 10px;
 
 }
-/* 
-.lesson-select{
-    background-color: white;
-} */
 
 .add-btn{
     width: 220px;

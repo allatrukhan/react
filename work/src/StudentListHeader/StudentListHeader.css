@@ -9,8 +9,9 @@
 .student-navigation-frame{
     width: 1120px;
     height: 24px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
 
 .schedule-frame{
