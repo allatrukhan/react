@@ -1,9 +1,10 @@
-.select-trailer-2{
+.trailer{
     width: 276px;
     height: 40px;
     display: flex;
-    flex-flow: column wrap;
-    flex: 1;
+    gap: 80px;
+    /* flex-flow: column wrap;
+    flex: 1; */
 
 }
 

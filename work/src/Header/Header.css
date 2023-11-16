@@ -8,6 +8,7 @@
     padding-top: 10px;
     position: fixed;
     background-color: white;
+    z-index: 2;
 }
 
 /* header svg{

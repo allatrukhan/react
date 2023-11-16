@@ -20,9 +20,9 @@ function Calendar() {
         </div>
         
         <div class="calendar">
-          <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <LocalizationProvider  dateAdapter={AdapterDayjs}>
             <DemoContainer components={['DateCalendar', 'DateCalendar']}>
-              <DateCalendar value={value} onChange={(newValue) => setValue(newValue)} />
+              <DateCalendar sx={{width: 228, height: 278}} value={value} onChange={(newValue) => setValue(newValue)} />
             </DemoContainer>
           </LocalizationProvider>
         </div>

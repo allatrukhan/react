@@ -17,13 +17,13 @@ function SelectTrailer(){
 
     return(
         <div class="select-trailer-main">
-        <div class="select-trailer-2"> 
+        <div class="trailer"> 
                 <label>Trailer:    </label>
-                <Box  >
+                <Box >
                     <FormControl fullWidth>
-                        <InputLabel  sx={{ height:24 }} id="demo-simple-select-label">131</InputLabel>
+                        <InputLabel id="demo-simple-select-label"></InputLabel>
                         <Select
-                        sx={{ height:24 }}
+                        sx={{ width:100 , height:24 }}
                             // size='small'
                             labelId="demo-simple-select-label"
                             id="demo-simple-select"
